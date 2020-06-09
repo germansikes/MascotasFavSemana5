@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MASCOTAS FAV</string>
+    <string name="btnPortadaText">Ingresar</string>
+    <string name="pdog">dato</string>
+    <string name="pLike">1</string>
+    <string name="actionfav">Favs</string>
+    <string name="actionSettings">Acerca de</string>
+    <string name="mContactoString">Contacto</string>
+    <string name="contactoFormulario">Información de Contacto</string>
+    <string name="etPNombre">Nombre</string>
+    <string name="etPCorreo">Correo</string>
+    <string name="etPMensaje">Mensaje</string>
+    <string name="etFecha">Fecha Nacimiento</string>
+    <string name="enviarmensaje">Enviar Mensaje</string>
+    <string name="bioContacto">Bio</string>
+    <string name="tvAbout">German David Aguilar Cen\nEdad: 25\Desarrollo de Aplicaciones en Android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="shadowCI">8.0f</string>
+</resources>

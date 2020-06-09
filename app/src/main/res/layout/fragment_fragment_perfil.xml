@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentPerfil">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImage"
+            android:layout_width="@dimen/circularImg"
+            android:layout_height="@dimen/circularImg"
+            android:src="@drawable/dog1"
+            android:layout_gravity="center|top"
+            app:civ_border="true"
+            app:civ_border_width="@dimen/borderWidth"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_shadow="true"
+            app:civ_shadow_color="@color/black" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gridImgs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/circularImage"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</FrameLayout>
